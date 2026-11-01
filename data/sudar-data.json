@@ -1,0 +1,2706 @@
+{
+ "town": "Erode District, Tamil Nadu",
+ "locations": [
+  {
+   "id": "ERD",
+   "name": "Erode Central Hub & Market",
+   "type": "STATION",
+   "lat": 11.341,
+   "lon": 77.717,
+   "taluk": "Erode",
+   "x": 625,
+   "y": 453
+  },
+  {
+   "id": "PRD",
+   "name": "Perundurai Industrial Estate",
+   "type": "INDUSTRIAL",
+   "lat": 11.26,
+   "lon": 77.6,
+   "taluk": "Perundurai",
+   "x": 523,
+   "y": 525
+  },
+  {
+   "id": "BVN",
+   "name": "Bhavani Sangameswarar Zone",
+   "type": "STATION",
+   "lat": 11.445,
+   "lon": 77.682,
+   "taluk": "Bhavani",
+   "x": 595,
+   "y": 361
+  },
+  {
+   "id": "GOB",
+   "name": "Gobichettipalayam Town",
+   "type": "MARKET",
+   "lat": 11.453,
+   "lon": 77.439,
+   "taluk": "Gobichettipalayam",
+   "x": 383,
+   "y": 353
+  },
+  {
+   "id": "STM",
+   "name": "Sathyamangalam Gateway",
+   "type": "JUNCTION",
+   "lat": 11.505,
+   "lon": 77.238,
+   "taluk": "Sathyamangalam",
+   "x": 208,
+   "y": 307
+  },
+  {
+   "id": "MDK",
+   "name": "Modakkurichi Residential",
+   "type": "RESIDENTIAL",
+   "lat": 11.22,
+   "lon": 77.725,
+   "taluk": "Modakkurichi",
+   "x": 632,
+   "y": 561
+  },
+  {
+   "id": "KDM",
+   "name": "Kodumudi South Zone",
+   "type": "HOSPITAL",
+   "lat": 11.077,
+   "lon": 77.885,
+   "taluk": "Kodumudi",
+   "x": 772,
+   "y": 688
+  },
+  {
+   "id": "ANT",
+   "name": "Anthiyur North Post",
+   "type": "STATION",
+   "lat": 11.576,
+   "lon": 77.59,
+   "taluk": "Anthiyur",
+   "x": 514,
+   "y": 244
+  },
+  {
+   "id": "NMB",
+   "name": "Nambiyur Junction",
+   "type": "JUNCTION",
+   "lat": 11.36,
+   "lon": 77.38,
+   "taluk": "Nambiyur",
+   "x": 331,
+   "y": 436
+  },
+  {
+   "id": "BVS",
+   "name": "Bhavanisagar Dam Area",
+   "type": "SCHOOL",
+   "lat": 11.47,
+   "lon": 77.12,
+   "taluk": "Sathyamangalam",
+   "x": 105,
+   "y": 338
+  },
+  {
+   "id": "CHD",
+   "name": "Chithode Bypass",
+   "type": "JUNCTION",
+   "lat": 11.405,
+   "lon": 77.705,
+   "taluk": "Erode",
+   "x": 615,
+   "y": 396
+  },
+  {
+   "id": "HPS",
+   "name": "Erode Headquarters Hospital",
+   "type": "HOSPITAL",
+   "lat": 11.338,
+   "lon": 77.723,
+   "taluk": "Erode",
+   "x": 630,
+   "y": 456
+  },
+  {
+   "id": "ERO",
+   "name": "Erode Junction Railway Station",
+   "type": "JUNCTION",
+   "lat": 11.3276,
+   "lon": 77.7289,
+   "taluk": "Erode",
+   "x": 636,
+   "y": 465
+  },
+  {
+   "id": "ERO2",
+   "name": "Erode Old Bus Stand",
+   "type": "JUNCTION",
+   "lat": 11.3412,
+   "lon": 77.714,
+   "taluk": "Erode",
+   "x": 623,
+   "y": 453
+  },
+  {
+   "id": "VEE",
+   "name": "Veerappanchatram Textile Market",
+   "type": "MARKET",
+   "lat": 11.35,
+   "lon": 77.712,
+   "taluk": "Erode",
+   "x": 621,
+   "y": 445
+  },
+  {
+   "id": "KAR",
+   "name": "Karungalpalayam",
+   "type": "RESIDENTIAL",
+   "lat": 11.338,
+   "lon": 77.704,
+   "taluk": "Erode",
+   "x": 614,
+   "y": 456
+  },
+  {
+   "id": "SUR",
+   "name": "Surampatti",
+   "type": "RESIDENTIAL",
+   "lat": 11.32,
+   "lon": 77.74,
+   "taluk": "Erode",
+   "x": 645,
+   "y": 472
+  },
+  {
+   "id": "PER",
+   "name": "Periyar Nagar",
+   "type": "RESIDENTIAL",
+   "lat": 11.3445,
+   "lon": 77.723,
+   "taluk": "Erode",
+   "x": 630,
+   "y": 450
+  },
+  {
+   "id": "THI",
+   "name": "Thindal",
+   "type": "RESIDENTIAL",
+   "lat": 11.31,
+   "lon": 77.695,
+   "taluk": "Erode",
+   "x": 606,
+   "y": 481
+  },
+  {
+   "id": "VAI",
+   "name": "Vairapalayam",
+   "type": "RESIDENTIAL",
+   "lat": 11.36,
+   "lon": 77.726,
+   "taluk": "Erode",
+   "x": 633,
+   "y": 436
+  },
+  {
+   "id": "NAS",
+   "name": "Nasiyanur",
+   "type": "RESIDENTIAL",
+   "lat": 11.38,
+   "lon": 77.67,
+   "taluk": "Erode",
+   "x": 584,
+   "y": 418
+  },
+  {
+   "id": "LAK",
+   "name": "Lakkapuram",
+   "type": "RESIDENTIAL",
+   "lat": 11.29,
+   "lon": 77.72,
+   "taluk": "Erode",
+   "x": 628,
+   "y": 499
+  },
+  {
+   "id": "MOO",
+   "name": "Moolapalayam",
+   "type": "RESIDENTIAL",
+   "lat": 11.325,
+   "lon": 77.71,
+   "taluk": "Erode",
+   "x": 619,
+   "y": 467
+  },
+  {
+   "id": "KOL",
+   "name": "Kollampalayam",
+   "type": "RESIDENTIAL",
+   "lat": 11.348,
+   "lon": 77.738,
+   "taluk": "Erode",
+   "x": 644,
+   "y": 447
+  },
+  {
+   "id": "ERO3",
+   "name": "Erode Collectorate Complex",
+   "type": "STATION",
+   "lat": 11.351,
+   "lon": 77.73,
+   "taluk": "Erode",
+   "x": 637,
+   "y": 444
+  },
+  {
+   "id": "ERO4",
+   "name": "Erode Turmeric Regulated Market",
+   "type": "MARKET",
+   "lat": 11.344,
+   "lon": 77.734,
+   "taluk": "Erode",
+   "x": 640,
+   "y": 451
+  },
+  {
+   "id": "SAM",
+   "name": "Sampath Nagar",
+   "type": "RESIDENTIAL",
+   "lat": 11.355,
+   "lon": 77.737,
+   "taluk": "Erode",
+   "x": 643,
+   "y": 441
+  },
+  {
+   "id": "ERO5",
+   "name": "Erode Cauvery Bridge",
+   "type": "JUNCTION",
+   "lat": 11.351,
+   "lon": 77.749,
+   "taluk": "Erode",
+   "x": 653,
+   "y": 444
+  },
+  {
+   "id": "KAS",
+   "name": "Kasipalayam Powerloom Cluster",
+   "type": "INDUSTRIAL",
+   "lat": 11.39,
+   "lon": 77.73,
+   "taluk": "Erode",
+   "x": 637,
+   "y": 410
+  },
+  {
+   "id": "KUM",
+   "name": "Kumalankuttai Powerloom Cluster",
+   "type": "INDUSTRIAL",
+   "lat": 11.37,
+   "lon": 77.7,
+   "taluk": "Erode",
+   "x": 610,
+   "y": 427
+  },
+  {
+   "id": "ERO6",
+   "name": "Erode Government Arts College",
+   "type": "SCHOOL",
+   "lat": 11.342,
+   "lon": 77.7,
+   "taluk": "Erode",
+   "x": 610,
+   "y": 452
+  },
+  {
+   "id": "ERO7",
+   "name": "Erode Private Hospital Zone",
+   "type": "HOSPITAL",
+   "lat": 11.333,
+   "lon": 77.718,
+   "taluk": "Erode",
+   "x": 626,
+   "y": 460
+  },
+  {
+   "id": "ERO8",
+   "name": "Erode South Fire & Rescue Station",
+   "type": "STATION",
+   "lat": 11.315,
+   "lon": 77.725,
+   "taluk": "Erode",
+   "x": 632,
+   "y": 476
+  },
+  {
+   "id": "VEN",
+   "name": "Vendipalayam",
+   "type": "RESIDENTIAL",
+   "lat": 11.39,
+   "lon": 77.69,
+   "taluk": "Erode",
+   "x": 602,
+   "y": 410
+  },
+  {
+   "id": "PER2",
+   "name": "Perundurai Town Market",
+   "type": "MARKET",
+   "lat": 11.276,
+   "lon": 77.587,
+   "taluk": "Perundurai",
+   "x": 512,
+   "y": 511
+  },
+  {
+   "id": "PER3",
+   "name": "Perundurai Medical College Hospital",
+   "type": "HOSPITAL",
+   "lat": 11.265,
+   "lon": 77.576,
+   "taluk": "Perundurai",
+   "x": 502,
+   "y": 521
+  },
+  {
+   "id": "PER4",
+   "name": "Perundurai Police & Fire Station",
+   "type": "STATION",
+   "lat": 11.278,
+   "lon": 77.59,
+   "taluk": "Perundurai",
+   "x": 514,
+   "y": 509
+  },
+  {
+   "id": "KON",
+   "name": "Kongu Engineering College",
+   "type": "SCHOOL",
+   "lat": 11.274,
+   "lon": 77.579,
+   "taluk": "Perundurai",
+   "x": 505,
+   "y": 513
+  },
+  {
+   "id": "CHE",
+   "name": "Chennimalai Handloom Cluster",
+   "type": "INDUSTRIAL",
+   "lat": 11.17,
+   "lon": 77.6,
+   "taluk": "Perundurai",
+   "x": 523,
+   "y": 605
+  },
+  {
+   "id": "CHE2",
+   "name": "Chennimalai Town",
+   "type": "MARKET",
+   "lat": 11.175,
+   "lon": 77.605,
+   "taluk": "Perundurai",
+   "x": 528,
+   "y": 601
+  },
+  {
+   "id": "VIJ",
+   "name": "Vijayamangalam",
+   "type": "JUNCTION",
+   "lat": 11.243,
+   "lon": 77.505,
+   "taluk": "Perundurai",
+   "x": 440,
+   "y": 540
+  },
+  {
+   "id": "KAN",
+   "name": "Kanjikoil",
+   "type": "JUNCTION",
+   "lat": 11.31,
+   "lon": 77.57,
+   "taluk": "Perundurai",
+   "x": 497,
+   "y": 481
+  },
+  {
+   "id": "THU",
+   "name": "Thuduppathi",
+   "type": "RESIDENTIAL",
+   "lat": 11.22,
+   "lon": 77.54,
+   "taluk": "Perundurai",
+   "x": 471,
+   "y": 561
+  },
+  {
+   "id": "ING",
+   "name": "Ingur",
+   "type": "JUNCTION",
+   "lat": 11.273,
+   "lon": 77.543,
+   "taluk": "Perundurai",
+   "x": 473,
+   "y": 514
+  },
+  {
+   "id": "PAS",
+   "name": "Pasur",
+   "type": "RESIDENTIAL",
+   "lat": 11.2,
+   "lon": 77.648,
+   "taluk": "Perundurai",
+   "x": 565,
+   "y": 579
+  },
+  {
+   "id": "THI2",
+   "name": "Thingalur",
+   "type": "RESIDENTIAL",
+   "lat": 11.29,
+   "lon": 77.63,
+   "taluk": "Perundurai",
+   "x": 549,
+   "y": 499
+  },
+  {
+   "id": "VEL",
+   "name": "Vellode Bird Sanctuary Road",
+   "type": "JUNCTION",
+   "lat": 11.27,
+   "lon": 77.675,
+   "taluk": "Perundurai",
+   "x": 589,
+   "y": 516
+  },
+  {
+   "id": "KAV",
+   "name": "Kavundachipalayam",
+   "type": "RESIDENTIAL",
+   "lat": 11.24,
+   "lon": 77.62,
+   "taluk": "Perundurai",
+   "x": 541,
+   "y": 543
+  },
+  {
+   "id": "BHA",
+   "name": "Bhavani Town Market",
+   "type": "MARKET",
+   "lat": 11.446,
+   "lon": 77.685,
+   "taluk": "Bhavani",
+   "x": 597,
+   "y": 360
+  },
+  {
+   "id": "BHA2",
+   "name": "Bhavani Government Hospital",
+   "type": "HOSPITAL",
+   "lat": 11.444,
+   "lon": 77.686,
+   "taluk": "Bhavani",
+   "x": 598,
+   "y": 362
+  },
+  {
+   "id": "BHA3",
+   "name": "Bhavani Fire & Police Station",
+   "type": "STATION",
+   "lat": 11.443,
+   "lon": 77.68,
+   "taluk": "Bhavani",
+   "x": 593,
+   "y": 362
+  },
+  {
+   "id": "BHA4",
+   "name": "Bhavani Carpet Weaving Cluster",
+   "type": "INDUSTRIAL",
+   "lat": 11.45,
+   "lon": 77.69,
+   "taluk": "Bhavani",
+   "x": 602,
+   "y": 356
+  },
+  {
+   "id": "KAV2",
+   "name": "Kavindapadi",
+   "type": "JUNCTION",
+   "lat": 11.4333,
+   "lon": 77.5833,
+   "taluk": "Bhavani",
+   "x": 509,
+   "y": 371
+  },
+  {
+   "id": "AMM",
+   "name": "Ammapettai",
+   "type": "RESIDENTIAL",
+   "lat": 11.43,
+   "lon": 77.62,
+   "taluk": "Bhavani",
+   "x": 541,
+   "y": 374
+  },
+  {
+   "id": "JAM",
+   "name": "Jambai",
+   "type": "RESIDENTIAL",
+   "lat": 11.425,
+   "lon": 77.59,
+   "taluk": "Bhavani",
+   "x": 514,
+   "y": 378
+  },
+  {
+   "id": "KAL",
+   "name": "Kalingarayan Anicut",
+   "type": "JUNCTION",
+   "lat": 11.417,
+   "lon": 77.66,
+   "taluk": "Bhavani",
+   "x": 576,
+   "y": 386
+  },
+  {
+   "id": "SIN",
+   "name": "Singampettai",
+   "type": "RESIDENTIAL",
+   "lat": 11.46,
+   "lon": 77.65,
+   "taluk": "Bhavani",
+   "x": 567,
+   "y": 347
+  },
+  {
+   "id": "SIT",
+   "name": "Sithar",
+   "type": "RESIDENTIAL",
+   "lat": 11.49,
+   "lon": 77.71,
+   "taluk": "Bhavani",
+   "x": 619,
+   "y": 321
+  },
+  {
+   "id": "BHA5",
+   "name": "Bhavani Govt Higher Secondary School",
+   "type": "SCHOOL",
+   "lat": 11.448,
+   "lon": 77.678,
+   "taluk": "Bhavani",
+   "x": 591,
+   "y": 358
+  },
+  {
+   "id": "GOB2",
+   "name": "Gobichettipalayam Government Hospital",
+   "type": "HOSPITAL",
+   "lat": 11.45,
+   "lon": 77.44,
+   "taluk": "Gobichettipalayam",
+   "x": 384,
+   "y": 356
+  },
+  {
+   "id": "GOB3",
+   "name": "Gobichettipalayam Bus Stand",
+   "type": "JUNCTION",
+   "lat": 11.454,
+   "lon": 77.443,
+   "taluk": "Gobichettipalayam",
+   "x": 386,
+   "y": 353
+  },
+  {
+   "id": "GOB4",
+   "name": "Gobichettipalayam Fire & Police Station",
+   "type": "STATION",
+   "lat": 11.451,
+   "lon": 77.436,
+   "taluk": "Gobichettipalayam",
+   "x": 380,
+   "y": 355
+  },
+  {
+   "id": "GOB5",
+   "name": "Gobichettipalayam Arts & Science College",
+   "type": "SCHOOL",
+   "lat": 11.456,
+   "lon": 77.42,
+   "taluk": "Gobichettipalayam",
+   "x": 366,
+   "y": 351
+  },
+  {
+   "id": "KUG",
+   "name": "Kugalur",
+   "type": "JUNCTION",
+   "lat": 11.49,
+   "lon": 77.47,
+   "taluk": "Gobichettipalayam",
+   "x": 410,
+   "y": 321
+  },
+  {
+   "id": "KOL2",
+   "name": "Kolappalur",
+   "type": "RESIDENTIAL",
+   "lat": 11.4,
+   "lon": 77.49,
+   "taluk": "Gobichettipalayam",
+   "x": 427,
+   "y": 401
+  },
+  {
+   "id": "KAV3",
+   "name": "Kavilipalayam",
+   "type": "RESIDENTIAL",
+   "lat": 11.42,
+   "lon": 77.42,
+   "taluk": "Gobichettipalayam",
+   "x": 366,
+   "y": 383
+  },
+  {
+   "id": "KOD",
+   "name": "Kodiveri Weir",
+   "type": "JUNCTION",
+   "lat": 11.4,
+   "lon": 77.39,
+   "taluk": "Gobichettipalayam",
+   "x": 340,
+   "y": 401
+  },
+  {
+   "id": "PAR",
+   "name": "Pariyur Kondathu Kaliamman Temple",
+   "type": "JUNCTION",
+   "lat": 11.48,
+   "lon": 77.54,
+   "taluk": "Gobichettipalayam",
+   "x": 471,
+   "y": 329
+  },
+  {
+   "id": "NAL",
+   "name": "Nallur",
+   "type": "RESIDENTIAL",
+   "lat": 11.43,
+   "lon": 77.47,
+   "taluk": "Gobichettipalayam",
+   "x": 410,
+   "y": 374
+  },
+  {
+   "id": "DOB",
+   "name": "Dobbi Weekly Market",
+   "type": "MARKET",
+   "lat": 11.41,
+   "lon": 77.45,
+   "taluk": "Gobichettipalayam",
+   "x": 392,
+   "y": 392
+  },
+  {
+   "id": "NAM",
+   "name": "Nambiyur Government Hospital",
+   "type": "HOSPITAL",
+   "lat": 11.365,
+   "lon": 77.385,
+   "taluk": "Nambiyur",
+   "x": 336,
+   "y": 432
+  },
+  {
+   "id": "NAM2",
+   "name": "Nambiyur Fire & Police Station",
+   "type": "STATION",
+   "lat": 11.362,
+   "lon": 77.378,
+   "taluk": "Nambiyur",
+   "x": 330,
+   "y": 435
+  },
+  {
+   "id": "KOS",
+   "name": "Kosanam",
+   "type": "RESIDENTIAL",
+   "lat": 11.38,
+   "lon": 77.45,
+   "taluk": "Nambiyur",
+   "x": 392,
+   "y": 418
+  },
+  {
+   "id": "ELA",
+   "name": "Elathur",
+   "type": "RESIDENTIAL",
+   "lat": 11.35,
+   "lon": 77.35,
+   "taluk": "Nambiyur",
+   "x": 305,
+   "y": 445
+  },
+  {
+   "id": "KOL3",
+   "name": "Kolathur",
+   "type": "RESIDENTIAL",
+   "lat": 11.33,
+   "lon": 77.42,
+   "taluk": "Nambiyur",
+   "x": 366,
+   "y": 463
+  },
+  {
+   "id": "CHI",
+   "name": "Chikkarasampalayam",
+   "type": "RESIDENTIAL",
+   "lat": 11.39,
+   "lon": 77.33,
+   "taluk": "Nambiyur",
+   "x": 288,
+   "y": 410
+  },
+  {
+   "id": "SAT",
+   "name": "Sathyamangalam Town Market",
+   "type": "MARKET",
+   "lat": 11.503,
+   "lon": 77.242,
+   "taluk": "Sathyamangalam",
+   "x": 211,
+   "y": 309
+  },
+  {
+   "id": "SAT2",
+   "name": "Sathyamangalam Government Hospital",
+   "type": "HOSPITAL",
+   "lat": 11.501,
+   "lon": 77.24,
+   "taluk": "Sathyamangalam",
+   "x": 209,
+   "y": 311
+  },
+  {
+   "id": "SAT3",
+   "name": "Sathyamangalam Fire & Police Station",
+   "type": "STATION",
+   "lat": 11.506,
+   "lon": 77.236,
+   "taluk": "Sathyamangalam",
+   "x": 206,
+   "y": 306
+  },
+  {
+   "id": "BAN",
+   "name": "Bannari Amman Temple",
+   "type": "JUNCTION",
+   "lat": 11.54,
+   "lon": 77.15,
+   "taluk": "Sathyamangalam",
+   "x": 131,
+   "y": 276
+  },
+  {
+   "id": "BAN2",
+   "name": "Bannari Amman Institute of Technology",
+   "type": "SCHOOL",
+   "lat": 11.5,
+   "lon": 77.27,
+   "taluk": "Sathyamangalam",
+   "x": 235,
+   "y": 312
+  },
+  {
+   "id": "DHI",
+   "name": "Dhimbam Ghat Road",
+   "type": "JUNCTION",
+   "lat": 11.59,
+   "lon": 77.17,
+   "taluk": "Sathyamangalam",
+   "x": 148,
+   "y": 232
+  },
+  {
+   "id": "HAS",
+   "name": "Hasanur",
+   "type": "JUNCTION",
+   "lat": 11.63,
+   "lon": 77.05,
+   "taluk": "Sathyamangalam",
+   "x": 44,
+   "y": 196
+  },
+  {
+   "id": "PUN",
+   "name": "Punjai Puliampatti Market",
+   "type": "MARKET",
+   "lat": 11.28,
+   "lon": 77.13,
+   "taluk": "Sathyamangalam",
+   "x": 113,
+   "y": 508
+  },
+  {
+   "id": "KAD",
+   "name": "Kadambur",
+   "type": "RESIDENTIAL",
+   "lat": 11.57,
+   "lon": 77.09,
+   "taluk": "Sathyamangalam",
+   "x": 78,
+   "y": 249
+  },
+  {
+   "id": "BHA6",
+   "name": "Bhavanisagar Town",
+   "type": "RESIDENTIAL",
+   "lat": 11.465,
+   "lon": 77.13,
+   "taluk": "Sathyamangalam",
+   "x": 113,
+   "y": 343
+  },
+  {
+   "id": "RAN",
+   "name": "Rangasamudram",
+   "type": "RESIDENTIAL",
+   "lat": 11.46,
+   "lon": 77.2,
+   "taluk": "Sathyamangalam",
+   "x": 174,
+   "y": 347
+  },
+  {
+   "id": "THA",
+   "name": "Thalavadi",
+   "type": "JUNCTION",
+   "lat": 11.76,
+   "lon": 77.0,
+   "taluk": "Thalavadi",
+   "x": 0,
+   "y": 80
+  },
+  {
+   "id": "THA2",
+   "name": "Thalavadi Government Hospital",
+   "type": "HOSPITAL",
+   "lat": 11.758,
+   "lon": 77.005,
+   "taluk": "Thalavadi",
+   "x": 4,
+   "y": 82
+  },
+  {
+   "id": "THA3",
+   "name": "Thalavadi Police Outpost",
+   "type": "STATION",
+   "lat": 11.762,
+   "lon": 76.995,
+   "taluk": "Thalavadi",
+   "x": -4,
+   "y": 78
+  },
+  {
+   "id": "ANT2",
+   "name": "Anthiyur Town Market",
+   "type": "MARKET",
+   "lat": 11.578,
+   "lon": 77.592,
+   "taluk": "Anthiyur",
+   "x": 516,
+   "y": 242
+  },
+  {
+   "id": "ANT3",
+   "name": "Anthiyur Government Hospital",
+   "type": "HOSPITAL",
+   "lat": 11.574,
+   "lon": 77.588,
+   "taluk": "Anthiyur",
+   "x": 513,
+   "y": 246
+  },
+  {
+   "id": "ANT4",
+   "name": "Anthiyur Fire & Police Station",
+   "type": "STATION",
+   "lat": 11.579,
+   "lon": 77.587,
+   "taluk": "Anthiyur",
+   "x": 512,
+   "y": 241
+  },
+  {
+   "id": "VEL2",
+   "name": "Vellithiruppur",
+   "type": "RESIDENTIAL",
+   "lat": 11.54,
+   "lon": 77.68,
+   "taluk": "Anthiyur",
+   "x": 593,
+   "y": 276
+  },
+  {
+   "id": "BUR",
+   "name": "Burgur",
+   "type": "JUNCTION",
+   "lat": 11.72,
+   "lon": 77.54,
+   "taluk": "Anthiyur",
+   "x": 471,
+   "y": 116
+  },
+  {
+   "id": "APP",
+   "name": "Appakudal",
+   "type": "RESIDENTIAL",
+   "lat": 11.49,
+   "lon": 77.5,
+   "taluk": "Anthiyur",
+   "x": 436,
+   "y": 321
+  },
+  {
+   "id": "THA4",
+   "name": "Thavittupalayam",
+   "type": "RESIDENTIAL",
+   "lat": 11.53,
+   "lon": 77.56,
+   "taluk": "Anthiyur",
+   "x": 488,
+   "y": 285
+  },
+  {
+   "id": "KOD2",
+   "name": "Kodumudi Magudeswarar Temple",
+   "type": "JUNCTION",
+   "lat": 11.079,
+   "lon": 77.883,
+   "taluk": "Kodumudi",
+   "x": 770,
+   "y": 686
+  },
+  {
+   "id": "KOD3",
+   "name": "Kodumudi Government Hospital",
+   "type": "HOSPITAL",
+   "lat": 11.08,
+   "lon": 77.887,
+   "taluk": "Kodumudi",
+   "x": 773,
+   "y": 686
+  },
+  {
+   "id": "KOD4",
+   "name": "Kodumudi Fire & Police Station",
+   "type": "STATION",
+   "lat": 11.076,
+   "lon": 77.89,
+   "taluk": "Kodumudi",
+   "x": 776,
+   "y": 689
+  },
+  {
+   "id": "SIV",
+   "name": "Sivagiri",
+   "type": "RESIDENTIAL",
+   "lat": 11.17,
+   "lon": 77.75,
+   "taluk": "Kodumudi",
+   "x": 654,
+   "y": 605
+  },
+  {
+   "id": "ARA",
+   "name": "Arachalur",
+   "type": "MARKET",
+   "lat": 11.15,
+   "lon": 77.69,
+   "taluk": "Kodumudi",
+   "x": 602,
+   "y": 623
+  },
+  {
+   "id": "AVA",
+   "name": "Avalpoondurai",
+   "type": "RESIDENTIAL",
+   "lat": 11.13,
+   "lon": 77.74,
+   "taluk": "Kodumudi",
+   "x": 645,
+   "y": 641
+  },
+  {
+   "id": "KOD5",
+   "name": "Kodumudi Cauvery Ghat",
+   "type": "JUNCTION",
+   "lat": 11.085,
+   "lon": 77.88,
+   "taluk": "Kodumudi",
+   "x": 767,
+   "y": 681
+  },
+  {
+   "id": "MOD",
+   "name": "Modakkurichi Government Hospital",
+   "type": "HOSPITAL",
+   "lat": 11.225,
+   "lon": 77.72,
+   "taluk": "Modakkurichi",
+   "x": 628,
+   "y": 556
+  },
+  {
+   "id": "MOD2",
+   "name": "Modakkurichi Fire & Police Station",
+   "type": "STATION",
+   "lat": 11.218,
+   "lon": 77.728,
+   "taluk": "Modakkurichi",
+   "x": 635,
+   "y": 563
+  },
+  {
+   "id": "ELU",
+   "name": "Elumathur",
+   "type": "RESIDENTIAL",
+   "lat": 11.2,
+   "lon": 77.8,
+   "taluk": "Modakkurichi",
+   "x": 698,
+   "y": 579
+  },
+  {
+   "id": "KOL4",
+   "name": "Kollankoil",
+   "type": "RESIDENTIAL",
+   "lat": 11.23,
+   "lon": 77.67,
+   "taluk": "Modakkurichi",
+   "x": 584,
+   "y": 552
+  },
+  {
+   "id": "KOD6",
+   "name": "Kodumudi Road Junction",
+   "type": "JUNCTION",
+   "lat": 11.18,
+   "lon": 77.8,
+   "taluk": "Modakkurichi",
+   "x": 698,
+   "y": 597
+  },
+  {
+   "id": "VEL3",
+   "name": "Vellode Market",
+   "type": "MARKET",
+   "lat": 11.3,
+   "lon": 77.67,
+   "taluk": "Modakkurichi",
+   "x": 584,
+   "y": 490
+  },
+  {
+   "id": "KAN2",
+   "name": "Kangeyam Road Junction",
+   "type": "JUNCTION",
+   "lat": 11.27,
+   "lon": 77.75,
+   "taluk": "Modakkurichi",
+   "x": 654,
+   "y": 516
+  },
+  {
+   "id": "MOD3",
+   "name": "Modakkurichi Rice Mill Cluster",
+   "type": "INDUSTRIAL",
+   "lat": 11.24,
+   "lon": 77.7,
+   "taluk": "Modakkurichi",
+   "x": 610,
+   "y": 543
+  },
+  {
+   "id": "ARI",
+   "name": "Ariyappampalayam",
+   "type": "RESIDENTIAL",
+   "lat": 11.31,
+   "lon": 77.63,
+   "taluk": "Modakkurichi",
+   "x": 549,
+   "y": 481
+  },
+  {
+   "id": "ERO9",
+   "name": "Erode District Collectorate Annex",
+   "type": "STATION",
+   "lat": 11.347,
+   "lon": 77.721,
+   "taluk": "Erode",
+   "x": 629,
+   "y": 448
+  }
+ ],
+ "roads": [
+  {
+   "from": "ERD",
+   "to": "CHD",
+   "km": 12.5,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "CHD",
+   "to": "BVN",
+   "km": 8,
+   "traffic": 1,
+   "blocked": false
+  },
+  {
+   "from": "BVN",
+   "to": "ANT",
+   "km": 18.4,
+   "traffic": 1.1,
+   "blocked": false
+  },
+  {
+   "from": "ANT",
+   "to": "GOB",
+   "km": 26.7,
+   "traffic": 1,
+   "blocked": false
+  },
+  {
+   "from": "GOB",
+   "to": "STM",
+   "km": 22.1,
+   "traffic": 1.3,
+   "blocked": false
+  },
+  {
+   "from": "STM",
+   "to": "BVS",
+   "km": 14,
+   "traffic": 1,
+   "blocked": false
+  },
+  {
+   "from": "BVS",
+   "to": "GOB",
+   "km": 43.5,
+   "traffic": 1.1,
+   "blocked": false
+  },
+  {
+   "from": "GOB",
+   "to": "NMB",
+   "km": 19,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "NMB",
+   "to": "PRD",
+   "km": 24.3,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "PRD",
+   "to": "ERD",
+   "km": 20,
+   "traffic": 1.5,
+   "blocked": false
+  },
+  {
+   "from": "ERD",
+   "to": "MDK",
+   "km": 16.8,
+   "traffic": 1.1,
+   "blocked": false
+  },
+  {
+   "from": "MDK",
+   "to": "KDM",
+   "km": 26.5,
+   "traffic": 1,
+   "blocked": false
+  },
+  {
+   "from": "ERD",
+   "to": "HPS",
+   "km": 0.9,
+   "traffic": 1.8,
+   "blocked": false
+  },
+  {
+   "from": "CHD",
+   "to": "PRD",
+   "km": 24.7,
+   "traffic": 1.2,
+   "blocked": true
+  },
+  {
+   "from": "ERD",
+   "to": "ERO2",
+   "km": 0.4,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "HPS",
+   "to": "PER",
+   "km": 0.9,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "PER",
+   "to": "ERO9",
+   "km": 0.4,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "HPS",
+   "to": "ERO7",
+   "km": 1.0,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "ERO2",
+   "to": "VEE",
+   "km": 1.3,
+   "traffic": 1.5,
+   "blocked": false
+  },
+  {
+   "from": "PER",
+   "to": "ERO3",
+   "km": 1.3,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "ERO3",
+   "to": "SAM",
+   "km": 1.1,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "SAM",
+   "to": "KOL",
+   "km": 1.0,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "KOL",
+   "to": "ERO4",
+   "km": 0.8,
+   "traffic": 1.5,
+   "blocked": false
+  },
+  {
+   "from": "ERO3",
+   "to": "VAI",
+   "km": 1.4,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "ERO2",
+   "to": "KAR",
+   "km": 1.4,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "KAR",
+   "to": "ERO6",
+   "km": 0.8,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "KOL",
+   "to": "ERO5",
+   "km": 1.6,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "ERO7",
+   "to": "MOO",
+   "km": 1.6,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "HPS",
+   "to": "ERO",
+   "km": 1.7,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "ERO",
+   "to": "ERO8",
+   "km": 1.8,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "ERO",
+   "to": "SUR",
+   "km": 1.8,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "MOO",
+   "to": "THI",
+   "km": 2.9,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "VEE",
+   "to": "KUM",
+   "km": 3.2,
+   "traffic": 1.6,
+   "blocked": false
+  },
+  {
+   "from": "KUM",
+   "to": "VEN",
+   "km": 3.1,
+   "traffic": 1.5,
+   "blocked": false
+  },
+  {
+   "from": "VEN",
+   "to": "CHD",
+   "km": 2.9,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "VEN",
+   "to": "NAS",
+   "km": 3.1,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "ERO8",
+   "to": "LAK",
+   "km": 3.5,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "THI",
+   "to": "VEL3",
+   "km": 3.7,
+   "traffic": 1.3,
+   "blocked": false
+  },
+  {
+   "from": "CHD",
+   "to": "KAS",
+   "km": 4.0,
+   "traffic": 1.5,
+   "blocked": false
+  },
+  {
+   "from": "VEL3",
+   "to": "VEL",
+   "km": 4.2,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "LAK",
+   "to": "KAN2",
+   "km": 4.9,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "NAS",
+   "to": "KAL",
+   "km": 5.3,
+   "traffic": 1.3,
+   "blocked": false
+  },
+  {
+   "from": "KAL",
+   "to": "BHA3",
+   "km": 4.5,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "BHA3",
+   "to": "BVN",
+   "km": 0.4,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "BVN",
+   "to": "BHA",
+   "km": 0.4,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "BHA",
+   "to": "BHA2",
+   "km": 0.3,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "BVN",
+   "to": "BHA5",
+   "km": 0.7,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "BHA",
+   "to": "BHA4",
+   "km": 0.9,
+   "traffic": 1.5,
+   "blocked": false
+  },
+  {
+   "from": "BHA5",
+   "to": "SIN",
+   "km": 4.2,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "VEL",
+   "to": "MOD3",
+   "km": 5.4,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "MOD3",
+   "to": "MOD",
+   "km": 3.4,
+   "traffic": 1.1,
+   "blocked": false
+  },
+  {
+   "from": "MOD",
+   "to": "MDK",
+   "km": 1.0,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "MDK",
+   "to": "MOD2",
+   "km": 0.5,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "MOD3",
+   "to": "KOL4",
+   "km": 4.3,
+   "traffic": 1.1,
+   "blocked": false
+  },
+  {
+   "from": "KOL4",
+   "to": "PAS",
+   "km": 5.1,
+   "traffic": 1.1,
+   "blocked": false
+  },
+  {
+   "from": "VEL3",
+   "to": "ARI",
+   "km": 5.6,
+   "traffic": 1.1,
+   "blocked": false
+  },
+  {
+   "from": "ARI",
+   "to": "THI2",
+   "km": 2.8,
+   "traffic": 1.1,
+   "blocked": false
+  },
+  {
+   "from": "THI2",
+   "to": "PER4",
+   "km": 5.7,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "PER4",
+   "to": "PER2",
+   "km": 0.5,
+   "traffic": 1.3,
+   "blocked": false
+  },
+  {
+   "from": "PER2",
+   "to": "KON",
+   "km": 1.1,
+   "traffic": 1.3,
+   "blocked": false
+  },
+  {
+   "from": "KON",
+   "to": "PER3",
+   "km": 1.3,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "PER2",
+   "to": "PRD",
+   "km": 2.8,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "PRD",
+   "to": "KAV",
+   "km": 3.9,
+   "traffic": 1.3,
+   "blocked": false
+  },
+  {
+   "from": "PER3",
+   "to": "ING",
+   "km": 4.6,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "KON",
+   "to": "KAN",
+   "km": 5.2,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "KAL",
+   "to": "AMM",
+   "km": 5.7,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "AMM",
+   "to": "JAM",
+   "km": 4.1,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "JAM",
+   "to": "KAV2",
+   "km": 1.5,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "BHA4",
+   "to": "SIT",
+   "km": 6.2,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "ING",
+   "to": "VIJ",
+   "km": 6.6,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "VIJ",
+   "to": "THU",
+   "km": 5.7,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "PAS",
+   "to": "CHE2",
+   "km": 6.8,
+   "traffic": 1.3,
+   "blocked": false
+  },
+  {
+   "from": "CHE2",
+   "to": "CHE",
+   "km": 1.0,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "MOD2",
+   "to": "SIV",
+   "km": 7.3,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "SIV",
+   "to": "AVA",
+   "km": 5.7,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "SIV",
+   "to": "KOD6",
+   "km": 7.0,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "KOD6",
+   "to": "ELU",
+   "km": 2.8,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "AVA",
+   "to": "ARA",
+   "km": 7.4,
+   "traffic": 1.1,
+   "blocked": false
+  },
+  {
+   "from": "SIT",
+   "to": "VEL2",
+   "km": 8.1,
+   "traffic": 1.1,
+   "blocked": false
+  },
+  {
+   "from": "KAV2",
+   "to": "PAR",
+   "km": 8.8,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "PAR",
+   "to": "APP",
+   "km": 5.6,
+   "traffic": 1.1,
+   "blocked": false
+  },
+  {
+   "from": "APP",
+   "to": "KUG",
+   "km": 4.1,
+   "traffic": 1.1,
+   "blocked": false
+  },
+  {
+   "from": "KUG",
+   "to": "GOB3",
+   "km": 6.2,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "GOB3",
+   "to": "GOB",
+   "km": 0.6,
+   "traffic": 1.3,
+   "blocked": false
+  },
+  {
+   "from": "GOB",
+   "to": "GOB2",
+   "km": 0.4,
+   "traffic": 1.3,
+   "blocked": false
+  },
+  {
+   "from": "GOB",
+   "to": "GOB4",
+   "km": 0.5,
+   "traffic": 1.3,
+   "blocked": false
+  },
+  {
+   "from": "GOB4",
+   "to": "GOB5",
+   "km": 2.3,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "GOB4",
+   "to": "KAV3",
+   "km": 4.8,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "KAV3",
+   "to": "DOB",
+   "km": 4.3,
+   "traffic": 1.3,
+   "blocked": false
+  },
+  {
+   "from": "DOB",
+   "to": "NAL",
+   "km": 3.9,
+   "traffic": 1.3,
+   "blocked": false
+  },
+  {
+   "from": "DOB",
+   "to": "KOS",
+   "km": 4.2,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "KAV3",
+   "to": "KOD",
+   "km": 4.9,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "KOD",
+   "to": "NAM",
+   "km": 4.9,
+   "traffic": 1.1,
+   "blocked": false
+  },
+  {
+   "from": "NAM",
+   "to": "NMB",
+   "km": 1.0,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "NMB",
+   "to": "NAM2",
+   "km": 0.4,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "NAM2",
+   "to": "ELA",
+   "km": 4.2,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "NAL",
+   "to": "KOL2",
+   "km": 5.0,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "ELA",
+   "to": "CHI",
+   "km": 6.2,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "NAM",
+   "to": "KOL3",
+   "km": 6.8,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "PAR",
+   "to": "THA4",
+   "km": 7.5,
+   "traffic": 1.1,
+   "blocked": false
+  },
+  {
+   "from": "THA4",
+   "to": "ANT3",
+   "km": 7.2,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "ANT3",
+   "to": "ANT",
+   "km": 0.4,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "ANT",
+   "to": "ANT2",
+   "km": 0.4,
+   "traffic": 1.1,
+   "blocked": false
+  },
+  {
+   "from": "ANT",
+   "to": "ANT4",
+   "km": 0.6,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "KOD6",
+   "to": "KOD5",
+   "km": 17.1,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "KOD5",
+   "to": "KOD2",
+   "km": 0.9,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "KOD2",
+   "to": "KDM",
+   "km": 0.4,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "KDM",
+   "to": "KOD3",
+   "km": 0.5,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "KOD3",
+   "to": "KOD4",
+   "km": 0.7,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "CHI",
+   "to": "BAN2",
+   "km": 17.3,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "BAN2",
+   "to": "SAT",
+   "km": 3.8,
+   "traffic": 1.1,
+   "blocked": false
+  },
+  {
+   "from": "SAT",
+   "to": "SAT2",
+   "km": 0.4,
+   "traffic": 1.1,
+   "blocked": false
+  },
+  {
+   "from": "SAT",
+   "to": "STM",
+   "km": 0.6,
+   "traffic": 1.1,
+   "blocked": false
+  },
+  {
+   "from": "STM",
+   "to": "SAT3",
+   "km": 0.3,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "SAT2",
+   "to": "RAN",
+   "km": 7.9,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "RAN",
+   "to": "BHA6",
+   "km": 9.6,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "BHA6",
+   "to": "BVS",
+   "km": 1.5,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "BVS",
+   "to": "BAN",
+   "km": 10.6,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "BAN",
+   "to": "DHI",
+   "km": 7.5,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "BAN",
+   "to": "KAD",
+   "km": 9.2,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "KAD",
+   "to": "HAS",
+   "km": 10.0,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "HAS",
+   "to": "THA2",
+   "km": 18.8,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "THA2",
+   "to": "THA",
+   "km": 0.7,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "THA",
+   "to": "THA3",
+   "km": 0.7,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "ANT4",
+   "to": "BUR",
+   "km": 20.6,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "BHA6",
+   "to": "PUN",
+   "km": 25.7,
+   "traffic": 1.1,
+   "blocked": false
+  },
+  {
+   "from": "PRD",
+   "to": "PER4",
+   "km": 2.8,
+   "traffic": 1.3,
+   "blocked": false
+  },
+  {
+   "from": "ERO",
+   "to": "ERO7",
+   "km": 1.7,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "ERO2",
+   "to": "ERO9",
+   "km": 1.2,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "VEE",
+   "to": "ERO9",
+   "km": 1.3,
+   "traffic": 1.5,
+   "blocked": false
+  },
+  {
+   "from": "SUR",
+   "to": "ERO8",
+   "km": 2.2,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "VAI",
+   "to": "SAM",
+   "km": 1.7,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "NAS",
+   "to": "KUM",
+   "km": 4.3,
+   "traffic": 1.5,
+   "blocked": false
+  },
+  {
+   "from": "LAK",
+   "to": "THI",
+   "km": 4.4,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "MOO",
+   "to": "KAR",
+   "km": 2.0,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "ERO3",
+   "to": "ERO4",
+   "km": 1.1,
+   "traffic": 1.5,
+   "blocked": false
+  },
+  {
+   "from": "ERO5",
+   "to": "SAM",
+   "km": 1.7,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "KAS",
+   "to": "VAI",
+   "km": 4.2,
+   "traffic": 1.5,
+   "blocked": false
+  },
+  {
+   "from": "ERO6",
+   "to": "ERO2",
+   "km": 1.9,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "ERO7",
+   "to": "ERD",
+   "km": 1.1,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "PER3",
+   "to": "PER2",
+   "km": 2.1,
+   "traffic": 1.3,
+   "blocked": false
+  },
+  {
+   "from": "PER4",
+   "to": "KON",
+   "km": 1.6,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "CHE",
+   "to": "PAS",
+   "km": 7.8,
+   "traffic": 1.3,
+   "blocked": false
+  },
+  {
+   "from": "KAN",
+   "to": "PER4",
+   "km": 5.2,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "THU",
+   "to": "ING",
+   "km": 7.4,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "ING",
+   "to": "KON",
+   "km": 4.9,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "PAS",
+   "to": "KAV",
+   "km": 6.7,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "THI2",
+   "to": "VEL3",
+   "km": 5.6,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "KAV",
+   "to": "PER4",
+   "km": 6.7,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "BHA2",
+   "to": "BVN",
+   "km": 0.6,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "BHA3",
+   "to": "BHA5",
+   "km": 0.7,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "BHA4",
+   "to": "BHA2",
+   "km": 1.0,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "KAV2",
+   "to": "AMM",
+   "km": 5.0,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "KAL",
+   "to": "BVN",
+   "km": 4.9,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "SIN",
+   "to": "BHA3",
+   "km": 4.7,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "SIT",
+   "to": "BHA",
+   "km": 7.0,
+   "traffic": 1.4,
+   "blocked": false
+  },
+  {
+   "from": "GOB2",
+   "to": "GOB4",
+   "km": 0.6,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "GOB3",
+   "to": "GOB2",
+   "km": 0.7,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "GOB5",
+   "to": "GOB",
+   "km": 2.6,
+   "traffic": 1.3,
+   "blocked": false
+  },
+  {
+   "from": "KOL2",
+   "to": "DOB",
+   "km": 5.6,
+   "traffic": 1.3,
+   "blocked": false
+  },
+  {
+   "from": "NAL",
+   "to": "GOB2",
+   "km": 4.9,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "NAM",
+   "to": "NAM2",
+   "km": 1.0,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "KOS",
+   "to": "KOL2",
+   "km": 6.1,
+   "traffic": 1.1,
+   "blocked": false
+  },
+  {
+   "from": "ELA",
+   "to": "NMB",
+   "km": 4.3,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "KOL3",
+   "to": "NMB",
+   "km": 6.9,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "CHI",
+   "to": "NAM2",
+   "km": 7.6,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "SAT2",
+   "to": "STM",
+   "km": 0.6,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "SAT3",
+   "to": "SAT2",
+   "km": 0.9,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "BAN2",
+   "to": "SAT2",
+   "km": 4.1,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "DHI",
+   "to": "KAD",
+   "km": 11.2,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "HAS",
+   "to": "DHI",
+   "km": 17.3,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "PUN",
+   "to": "BVS",
+   "km": 26.4,
+   "traffic": 1.1,
+   "blocked": false
+  },
+  {
+   "from": "RAN",
+   "to": "SAT3",
+   "km": 8.1,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "THA2",
+   "to": "THA3",
+   "km": 1.5,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "ANT2",
+   "to": "ANT4",
+   "km": 0.7,
+   "traffic": 1.1,
+   "blocked": false
+  },
+  {
+   "from": "ANT3",
+   "to": "ANT4",
+   "km": 0.7,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "VEL2",
+   "to": "SIN",
+   "km": 11.8,
+   "traffic": 1.1,
+   "blocked": false
+  },
+  {
+   "from": "BUR",
+   "to": "ANT2",
+   "km": 21.0,
+   "traffic": 1.1,
+   "blocked": false
+  },
+  {
+   "from": "KOD2",
+   "to": "KOD3",
+   "km": 0.6,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "KOD4",
+   "to": "KDM",
+   "km": 0.7,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "ARA",
+   "to": "SIV",
+   "km": 8.6,
+   "traffic": 1.1,
+   "blocked": false
+  },
+  {
+   "from": "KOD5",
+   "to": "KOD3",
+   "km": 1.2,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "MOD",
+   "to": "MOD2",
+   "km": 1.5,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "ELU",
+   "to": "SIV",
+   "km": 8.0,
+   "traffic": 1.0,
+   "blocked": false
+  },
+  {
+   "from": "KAN2",
+   "to": "SUR",
+   "km": 7.1,
+   "traffic": 1.2,
+   "blocked": false
+  },
+  {
+   "from": "ERO9",
+   "to": "ERD",
+   "km": 1.0,
+   "traffic": 1.4,
+   "blocked": false
+  }
+ ],
+ "units": [
+  {
+   "id": "ERD-FIRE-1",
+   "type": "FIRE",
+   "station": "ERD"
+  },
+  {
+   "id": "PRD-FIRE-2",
+   "type": "FIRE",
+   "station": "PRD"
+  },
+  {
+   "id": "BVN-POL-1",
+   "type": "POLICE",
+   "station": "BVN"
+  },
+  {
+   "id": "GOB-POL-2",
+   "type": "POLICE",
+   "station": "GOB"
+  },
+  {
+   "id": "ERD-AMB-1",
+   "type": "AMBULANCE",
+   "station": "HPS"
+  },
+  {
+   "id": "KDM-AMB-2",
+   "type": "AMBULANCE",
+   "station": "KDM"
+  },
+  {
+   "id": "ANT-FIRE-1",
+   "type": "FIRE",
+   "station": "ANT"
+  },
+  {
+   "id": "ANT-POL-1",
+   "type": "POLICE",
+   "station": "ANT"
+  },
+  {
+   "id": "ERO3-FIRE-1",
+   "type": "FIRE",
+   "station": "ERO3"
+  },
+  {
+   "id": "ERO3-POL-1",
+   "type": "POLICE",
+   "station": "ERO3"
+  },
+  {
+   "id": "ERO7-AMB-1",
+   "type": "AMBULANCE",
+   "station": "ERO7"
+  },
+  {
+   "id": "ERO8-FIRE-1",
+   "type": "FIRE",
+   "station": "ERO8"
+  },
+  {
+   "id": "ERO8-POL-1",
+   "type": "POLICE",
+   "station": "ERO8"
+  },
+  {
+   "id": "PER3-AMB-1",
+   "type": "AMBULANCE",
+   "station": "PER3"
+  },
+  {
+   "id": "PER4-FIRE-1",
+   "type": "FIRE",
+   "station": "PER4"
+  },
+  {
+   "id": "PER4-POL-1",
+   "type": "POLICE",
+   "station": "PER4"
+  },
+  {
+   "id": "BHA2-AMB-1",
+   "type": "AMBULANCE",
+   "station": "BHA2"
+  },
+  {
+   "id": "BHA3-FIRE-1",
+   "type": "FIRE",
+   "station": "BHA3"
+  },
+  {
+   "id": "BHA3-POL-1",
+   "type": "POLICE",
+   "station": "BHA3"
+  },
+  {
+   "id": "GOB2-AMB-1",
+   "type": "AMBULANCE",
+   "station": "GOB2"
+  },
+  {
+   "id": "GOB4-FIRE-1",
+   "type": "FIRE",
+   "station": "GOB4"
+  },
+  {
+   "id": "GOB4-POL-1",
+   "type": "POLICE",
+   "station": "GOB4"
+  },
+  {
+   "id": "NAM-AMB-1",
+   "type": "AMBULANCE",
+   "station": "NAM"
+  },
+  {
+   "id": "NAM2-FIRE-1",
+   "type": "FIRE",
+   "station": "NAM2"
+  },
+  {
+   "id": "NAM2-POL-1",
+   "type": "POLICE",
+   "station": "NAM2"
+  },
+  {
+   "id": "SAT2-AMB-1",
+   "type": "AMBULANCE",
+   "station": "SAT2"
+  },
+  {
+   "id": "SAT3-FIRE-1",
+   "type": "FIRE",
+   "station": "SAT3"
+  },
+  {
+   "id": "SAT3-POL-1",
+   "type": "POLICE",
+   "station": "SAT3"
+  },
+  {
+   "id": "THA2-AMB-1",
+   "type": "AMBULANCE",
+   "station": "THA2"
+  },
+  {
+   "id": "THA3-FIRE-1",
+   "type": "FIRE",
+   "station": "THA3"
+  },
+  {
+   "id": "THA3-POL-1",
+   "type": "POLICE",
+   "station": "THA3"
+  },
+  {
+   "id": "ANT3-AMB-1",
+   "type": "AMBULANCE",
+   "station": "ANT3"
+  },
+  {
+   "id": "ANT4-FIRE-1",
+   "type": "FIRE",
+   "station": "ANT4"
+  },
+  {
+   "id": "ANT4-POL-1",
+   "type": "POLICE",
+   "station": "ANT4"
+  },
+  {
+   "id": "KOD3-AMB-1",
+   "type": "AMBULANCE",
+   "station": "KOD3"
+  },
+  {
+   "id": "KOD4-FIRE-1",
+   "type": "FIRE",
+   "station": "KOD4"
+  },
+  {
+   "id": "KOD4-POL-1",
+   "type": "POLICE",
+   "station": "KOD4"
+  },
+  {
+   "id": "MOD-AMB-1",
+   "type": "AMBULANCE",
+   "station": "MOD"
+  },
+  {
+   "id": "MOD2-FIRE-1",
+   "type": "FIRE",
+   "station": "MOD2"
+  },
+  {
+   "id": "MOD2-POL-1",
+   "type": "POLICE",
+   "station": "MOD2"
+  },
+  {
+   "id": "ERO9-FIRE-1",
+   "type": "FIRE",
+   "station": "ERO9"
+  },
+  {
+   "id": "ERO9-POL-1",
+   "type": "POLICE",
+   "station": "ERO9"
+  }
+ ],
+ "incidents": [
+  {
+   "id": "INC-01",
+   "type": "Textile Mill Fire",
+   "location": "PRD",
+   "severity": 5,
+   "reportedAt": 0,
+   "needs": [
+    "FIRE",
+    "AMBULANCE"
+   ]
+  },
+  {
+   "id": "INC-02",
+   "type": "Turmeric Market Incident",
+   "location": "ERD",
+   "severity": 4,
+   "reportedAt": 2,
+   "needs": [
+    "POLICE",
+    "AMBULANCE"
+   ]
+  },
+  {
+   "id": "INC-03",
+   "type": "Dam Checkpoint Alert",
+   "location": "BVS",
+   "severity": 3,
+   "reportedAt": 5,
+   "needs": [
+    "POLICE"
+   ]
+  },
+  {
+   "id": "INC-04",
+   "type": "Highway Collision",
+   "location": "CHD",
+   "severity": 4,
+   "reportedAt": 8,
+   "needs": [
+    "FIRE",
+    "AMBULANCE"
+   ]
+  }
+ ]
+}

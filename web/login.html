@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="govt-light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sign In -- Emergency Response Management System</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<div class="tricolor-bar"></div>
+
+<div class="login-wrap">
+  <div class="login-card">
+    <div class="emblem">&#128737;</div>
+    <h1 id="formTitle">Control Room Sign In</h1>
+    <p class="dept">Emergency Response Management System &middot; Erode District (Prototype)</p>
+
+    <div id="formMsg" class="form-msg"></div>
+
+    <!-- LOGIN FORM -->
+    <form id="loginForm">
+      <div class="field">
+        <label for="loginUsername">Username</label>
+        <input type="text" id="loginUsername" autocomplete="username" required />
+      </div>
+      <div class="field">
+        <label for="loginPassword">Password</label>
+        <input type="password" id="loginPassword" autocomplete="current-password" required />
+      </div>
+      <button type="submit" class="primary block">Sign In</button>
+      <p class="switch-link">New operator? <a id="showSignup">Create an account</a></p>
+      <div class="demo-creds">
+        Demo administrator account &mdash; username <strong>admin</strong>, password <strong>Admin@123</strong>.
+        This prototype stores accounts in the browser only; it is not a secure login system.
+      </div>
+    </form>
+
+    <!-- SIGNUP FORM -->
+    <form id="signupForm" style="display:none;">
+      <div class="field">
+        <label for="signupFullName">Full name</label>
+        <input type="text" id="signupFullName" required />
+      </div>
+      <div class="field">
+        <label for="signupUsername">Choose a username</label>
+        <input type="text" id="signupUsername" autocomplete="username" required />
+      </div>
+      <div class="field">
+        <label for="signupPassword">Choose a password</label>
+        <input type="password" id="signupPassword" autocomplete="new-password" required />
+      </div>
+      <button type="submit" class="primary block">Create Operator Account</button>
+      <p class="switch-link">Already registered? <a id="showLogin">Back to sign in</a></p>
+    </form>
+  </div>
+</div>
+
+<script src="js/auth.js"></script>
+<script>
+  (function () {
+    // Apply saved theme preference before paint-relevant logic runs.
+    var savedTheme = localStorage.getItem("sudar_theme");
+    if (savedTheme) document.documentElement.setAttribute("data-theme", savedTheme);
+
+    // If already signed in this session, skip straight to the dashboard.
+    if (SudarAuth.currentSession()) {
+      window.location.href = "dashboard.html";
+      return;
+    }
+
+    var loginForm = document.getElementById("loginForm");
+    var signupForm = document.getElementById("signupForm");
+    var formTitle = document.getElementById("formTitle");
+    var formMsg = document.getElementById("formMsg");
+
+    function showMessage(text, kind) {
+      formMsg.textContent = text;
+      formMsg.className = "form-msg " + kind;
+    }
+    function clearMessage() {
+      formMsg.className = "form-msg";
+      formMsg.textContent = "";
+    }
+
+    document.getElementById("showSignup").addEventListener("click", function () {
+      loginForm.style.display = "none";
+      signupForm.style.display = "block";
+      formTitle.textContent = "Create Operator Account";
+      clearMessage();
+    });
+    document.getElementById("showLogin").addEventListener("click", function () {
+      signupForm.style.display = "none";
+      loginForm.style.display = "block";
+      formTitle.textContent = "Control Room Sign In";
+      clearMessage();
+    });
+
+    loginForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var username = document.getElementById("loginUsername").value;
+      var password = document.getElementById("loginPassword").value;
+      var result = SudarAuth.login(username, password);
+      if (result.ok) {
+        window.location.href = "dashboard.html";
+      } else {
+        showMessage(result.message, "error");
+      }
+    });
+
+    signupForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var fullName = document.getElementById("signupFullName").value;
+      var username = document.getElementById("signupUsername").value;
+      var password = document.getElementById("signupPassword").value;
+      var result = SudarAuth.createUser(username, password, fullName);
+      if (result.ok) {
+        signupForm.style.display = "none";
+        loginForm.style.display = "block";
+        formTitle.textContent = "Control Room Sign In";
+        document.getElementById("loginUsername").value = username;
+        showMessage("Account created successfully. You can sign in now.", "success");
+      } else {
+        showMessage(result.message, "error");
+      }
+    });
+  })();
+</script>
+</body>
+</html>

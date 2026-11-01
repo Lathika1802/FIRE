@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="govt-light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Java + MySQL Mode -- Emergency Response Management System</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<div class="tricolor-bar"></div>
+
+<header class="gov-header">
+  <div class="brand">
+    <div class="emblem">&#128737;</div>
+    <div class="brand-text">
+      <p class="dept">Directorate of Fire, Police &amp; Emergency Medical Services</p>
+      <h1>Java + MySQL Mode</h1>
+      <p class="sub">Separate option &middot; data and dispatch come from the Java program (OOP, PriorityQueue, Dijkstra) and MySQL</p>
+    </div>
+  </div>
+  <div class="header-controls">
+    <a class="ghost-link" href="dashboard.html">&larr; Standalone dashboard</a>
+    <select id="themeSelect" title="Theme">
+      <option value="govt-light">Government Light</option>
+      <option value="govt-dark">Government Dark</option>
+    </select>
+    <div class="session-chip">
+      <span id="sessionName">--</span>
+      <span class="role-badge" id="sessionRole">--</span>
+    </div>
+    <button class="ghost" id="logoutBtn">Sign Out</button>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="panel">
+    <h2>Java Backend Connection <span id="connState" class="status-pill status-PENDING">Not connected</span></h2>
+    <div class="map-tools">
+      <input id="apiBase" value="http://localhost:8080" title="Address printed by the Java program" />
+      <button id="connectBtn" type="button">Connect</button>
+      <button id="refreshBtn" type="button">Refresh</button>
+    </div>
+    <p class="muted-note" id="sourceNote">
+      Start the Java program first: <code>run.bat api</code> (Windows) or <code>./run.sh api</code> (Linux / macOS),
+      or choose menu option 10 inside the console program. Then press Connect.
+    </p>
+  </div>
+
+  <div id="liveArea" style="display:none;">
+    <div class="kpi-row" id="kpiRow"></div>
+
+    <div class="grid-2">
+      <div class="panel">
+        <h2>District Road &amp; Response Map</h2>
+        <div id="mapContainer" style="width:100%; aspect-ratio: 4/3;"></div>
+        <div class="legend">
+          <span><span class="dot" style="background:#0b7a3b"></span>Light traffic</span>
+          <span><span class="dot" style="background:#b8860b"></span>Moderate traffic</span>
+          <span><span class="dot" style="background:#b3261e"></span>Heavy traffic / closed road</span>
+        </div>
+      </div>
+      <div class="panel">
+        <h2>Live Dispatch Log (Java engine)</h2>
+        <div class="log-feed" id="logFeed"></div>
+        <h2 style="margin-top:20px;">Response Units</h2>
+        <div class="table-scroll"><table>
+          <thead><tr><th>Unit</th><th>Type</th><th>Station</th></tr></thead>
+          <tbody id="unitsBody"></tbody>
+        </table></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Report New Incident <span class="muted-note">(saved to MySQL when the Java program uses MySQL)</span></h2>
+      <form id="incidentForm" class="inc-form" onsubmit="return false;">
+        <input id="incType" placeholder="Incident type (e.g. Warehouse Fire)" />
+        <select id="incLoc"></select>
+        <select id="incSeverity">
+          <option value="1">Severity 1</option><option value="2">Severity 2</option>
+          <option value="3" selected>Severity 3</option><option value="4">Severity 4</option><option value="5">Severity 5</option>
+        </select>
+        <label><input type="checkbox" value="FIRE" class="needBox" /> Fire</label>
+        <label><input type="checkbox" value="POLICE" class="needBox" checked /> Police</label>
+        <label><input type="checkbox" value="AMBULANCE" class="needBox" /> Ambulance</label>
+        <button id="incSubmit" type="button">Dispatch</button>
+      </form>
+      <p id="incMsg" class="muted-note"></p>
+    </div>
+
+    <div class="panel">
+      <h2>Incidents (priority order: critical infrastructure, severity, population exposure, report time)</h2>
+      <div class="table-scroll"><table>
+        <thead><tr><th>#</th><th>ID</th><th>Type</th><th>Location</th><th>Critical</th><th>Sev.</th><th>Pop.</th><th>Needs</th><th>Status</th><th>Response</th></tr></thead>
+        <tbody id="incidentsBody"></tbody>
+      </table></div>
+    </div>
+
+    <div class="panel">
+      <h2>Unit Assignments (Dijkstra routes)</h2>
+      <div class="table-scroll"><table>
+        <thead><tr><th>Incident</th><th>Unit</th><th>Route</th><th>Distance</th><th>Travel Time</th><th>Arrival (t+)</th></tr></thead>
+        <tbody id="assignmentsBody"></tbody>
+      </table></div>
+    </div>
+
+    <div class="panel" id="adminPanel" style="display:none;">
+      <h2>Administrator Controls &ndash; roads</h2>
+      <div class="map-tools"><input id="roadFilter" placeholder="Filter roads by place name or id..." /></div>
+      <div class="table-scroll"><table>
+        <thead><tr><th>Road</th><th>Distance</th><th>Traffic</th><th>Status</th><th></th></tr></thead>
+        <tbody id="roadsBody"></tbody>
+      </table></div>
+    </div>
+  </div>
+
+  <footer class="gov-footer">
+    <div>Emergency Response Management System &middot; Erode District Prototype &middot; Java + MySQL mode</div>
+    <div class="disclaimer">
+      Academic / portfolio prototype. Not an official Government of Tamil Nadu system, not connected to any live
+      emergency service, and must not be used for real dispatch decisions.
+    </div>
+  </footer>
+</div>
+
+<script src="js/auth.js"></script>
+<script src="js/map.js"></script>
+<script src="js/backend.js"></script>
+</body>
+</html>
